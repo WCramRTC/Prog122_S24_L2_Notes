@@ -16,6 +16,7 @@ namespace Prog122_S24_L2_Notes
     /// </summary>
     public partial class MainWindow : Window
     {
+        // William Cram
         public MainWindow()
         {
             InitializeComponent();

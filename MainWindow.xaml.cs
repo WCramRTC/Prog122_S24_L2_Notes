@@ -21,6 +21,32 @@ namespace Prog122_S24_L2_Notes
         public MainWindow()
         {
             InitializeComponent();
+
+            string userFirstName = txtFirstName.Text;
+
+            // Message Box
+            //MessageBox.Show(userFirstName);
+
+        }
+
+        private void btnPopUpMessage_Click(object sender, RoutedEventArgs e)
+        {
+            string userFirstName = txtFirstName.Text;
+
+            int a = 5;
+            int b = 5;
+            int sum = a + b;
+
+            MessageBox.Show(sum.ToString());
+        }
+
+        private void btnAddNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            int a = int.Parse(txtNum1.Text);
+            int b = int.Parse(txtNum2.Text);
+            int sum = a + b;
+
+            MessageBox.Show(sum.ToString());
         }
     }
 }
